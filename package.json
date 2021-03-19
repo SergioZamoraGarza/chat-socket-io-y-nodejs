@@ -1,0 +1,27 @@
+{
+  "name": "curso-sockets",
+  "version": "1.0.0",
+  "description": "Chat de Socket IO y Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioZamoraGarza/chat-socket-io-y-nodejs.git"
+  },
+  "author": "Sergio Zamora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SergioZamoraGarza/chat-socket-io-y-nodejs/issues"
+  },
+  "homepage": "https://github.com/SergioZamoraGarza/chat-socket-io-y-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
